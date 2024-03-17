@@ -57,6 +57,6 @@ func main() {
 	http.HandleFunc("/version", version)
 	http.HandleFunc("/exit", exit)
 	http.HandleFunc("/crash", crash)
-	http.HandleFunc("/token", token)
+	//http.HandleFunc("/token", token)
 	http.ListenAndServe(":80", nil)
 }
